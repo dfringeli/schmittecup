@@ -11,8 +11,9 @@
 @font-face {
     font-family: "BigNoodleTitling";
     src: url("./fonts/big_noodle_titling.ttf") format("truetype"); /* Safari, Android, iOS */
+    letter-spacing: 0.05em;
 }
 
-h1, h2 {
-    font-family: 'BigNoodleTitling';
+h1, .entry-title h2 {
+    font-family: "BigNoodleTitling", "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 }
