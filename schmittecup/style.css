@@ -5,5 +5,11 @@
  Template:     twentytwenty
  Version:      1.0.0
 */
- 
+
 @import url("../twentytwenty/style.css");
+
+@font-face {
+    font-family: "BigNoodleTitling";
+    src: url("./fonts/big_noodle_titling.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
