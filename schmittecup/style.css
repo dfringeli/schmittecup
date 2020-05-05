@@ -13,3 +13,6 @@
     src: url("./fonts/big_noodle_titling.ttf") format("truetype"); /* Safari, Android, iOS */
 }
 
+h1, h2 {
+    font-family: 'BigNoodleTitling';
+}
