@@ -11,9 +11,44 @@
 @font-face {
     font-family: "BigNoodleTitling";
     src: url("./fonts/big_noodle_titling.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+h1,
+.entry-content h2 {
+    font-family: "BigNoodleTitling", "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
+        sans-serif;
     letter-spacing: 0.05em;
 }
 
-h1, .entry-title h2 {
-    font-family: "BigNoodleTitling", "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+.header-inner,
+body:not(.enable-search-modal) .header-titles-wrapper {
+    justify-content: center;
+}
+
+.header-titles-wrapper {
+    padding: 0;
+}
+
+.site-logo img {
+    max-height: 20rem;
+}
+
+.singular .entry-header {
+    padding: 0;
+    padding-bottom: 2rem;
+}
+
+.entry-content, .entry-content h3 {
+    font-family: sans-serif;
+}
+
+@media (min-width: 700px) {
+    .site-logo img {
+        max-height: 20rem;
+    }
+
+    .singular .entry-header {
+        padding: 0;
+        padding-bottom: 2rem;
+    }
 }
